@@ -1,1 +1,1 @@
-# ft_init
+# init
