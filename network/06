@@ -1,14 +1,17 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    02                                                 :+:      :+:    :+:    #
+#    06                                                 :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: mikim <mikim@student.42.us.org>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2018/03/11 22:31:06 by mikim             #+#    #+#              #
-#    Updated: 2018/03/11 23:26:40 by mikim            ###   ########.fr        #
+#    Created: 2018/03/11 22:50:36 by mikim             #+#    #+#              #
+#    Updated: 2018/03/11 23:26:35 by mikim            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 #!/usr/bin/bash
-networksetup -getinfo Ethernet
+less /etc/resolv.conf
+
+# source
+# https://www.cyberciti.biz/faq/how-to-find-out-what-my-dns-servers-address-is/
