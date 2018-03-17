@@ -6,9 +6,17 @@
 #    By: mikim <mikim@student.42.us.org>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/03/11 23:13:43 by mikim             #+#    #+#              #
-#    Updated: 2018/03/11 23:26:32 by mikim            ###   ########.fr        #
+#    Updated: 2018/03/17 15:51:45 by mikim            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
+#
+#	Mingyun Kim
+#	https://www.github.com/mikim42
+#
+
 #!/usr/bin/bash
 whois slash16.org
+
+# whois prints out the information of input domains.
+# man whois

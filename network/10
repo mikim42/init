@@ -6,9 +6,14 @@
 #    By: mikim <mikim@student.42.us.org>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/03/11 23:34:15 by mikim             #+#    #+#              #
-#    Updated: 2018/03/11 23:34:22 by mikim            ###   ########.fr        #
+#    Updated: 2018/03/17 15:51:53 by mikim            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
+
+#
+#	Mingyun Kim
+#	https://www.github.com/mikim42
+#
 
 #!/usr/bin/bash
 traceroute slash16.org

@@ -1,12 +1,12 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    03                                                 :+:      :+:    :+:    #
+#    15                                                 :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: mikim <mikim@student.42.us.org>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2018/03/11 22:21:54 by mikim             #+#    #+#              #
-#    Updated: 2018/03/17 15:51:30 by mikim            ###   ########.fr        #
+#    Created: 2018/03/17 15:55:26 by mikim             #+#    #+#              #
+#    Updated: 2018/03/17 15:58:19 by mikim            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,5 +15,9 @@
 #	https://www.github.com/mikim42
 #
 
-#!/usr/bin/bash
-networksetup -getmacaddress Wi-Fi
+less /etc/hosts
+
+# /etc/hosts contains local DNS entries.
+
+# source
+# https://en.wikipedia.org/wiki/Hosts_(file)

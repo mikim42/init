@@ -1,12 +1,12 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    03                                                 :+:      :+:    :+:    #
+#    16                                                 :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: mikim <mikim@student.42.us.org>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2018/03/11 22:21:54 by mikim             #+#    #+#              #
-#    Updated: 2018/03/17 15:51:30 by mikim            ###   ########.fr        #
+#    Created: 2018/03/17 15:58:48 by mikim             #+#    #+#              #
+#    Updated: 2018/03/17 16:00:30 by mikim            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,5 +15,9 @@
 #	https://www.github.com/mikim42
 #
 
-#!/usr/bin/bash
-networksetup -getmacaddress Wi-Fi
+sudo echo "46.19.122.85	intra.42.fr" >> /etc/hosts
+
+# You can manually change hosts file to reroute.
+
+# source
+# https://en.wikipedia.org/wiki/Hosts_(file)
