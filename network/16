@@ -6,7 +6,7 @@
 #    By: mikim <mikim@student.42.us.org>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/03/17 15:58:48 by mikim             #+#    #+#              #
-#    Updated: 2018/03/17 16:00:30 by mikim            ###   ########.fr        #
+#    Updated: 2018/03/18 15:03:04 by mikim            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,6 +15,7 @@
 #	https://www.github.com/mikim42
 #
 
+#!/usr/bin/bash
 sudo echo "46.19.122.85	intra.42.fr" >> /etc/hosts
 
 # You can manually change hosts file to reroute.
