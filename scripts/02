@@ -1,0 +1,28 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    02                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: mikim <mikim@student.42.us.org>            +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/03/18 16:41:33 by mikim             #+#    #+#              #
+#    Updated: 2018/03/18 17:00:06 by mikim            ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# **************************************************************************** #
+#                                                               Mingyun Kim    #
+#                                            https://www.github.com/mikim42    #
+# **************************************************************************** #
+
+#!/bin/bash
+
+echo "apt-get update -y && \
+apt-get upgrade -y >> /var/log/update_script.log" > dailyUpdate.sh
+chmod 755 dailyUpdate.sh
+sudo mv dailyUpdate.sh /etc/cron.daily
+echo "* 4 * * 1 root /etc/cron.daily/dailyUpdate.sh" | crontab
+crontab -l
+
+# source
+# https://awc.com.my/uploadnew/5ffbd639c5e6eccea359cb1453a02bed_Setting%20Up%20Cron%20Job%20Using%20crontab.pdf
