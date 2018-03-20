@@ -6,7 +6,7 @@
 #    By: mikim <mikim@student.42.us.org>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/03/11 23:59:06 by mikim             #+#    #+#              #
-#    Updated: 2018/03/18 15:02:29 by mikim            ###   ########.fr        #
+#    Updated: 2018/03/19 21:01:38 by mikim            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,7 +15,7 @@
 #	https://www.github.com/mikim42
 #
 
-#!/usr/bin/bash
+#!/bin/bash
 echo "nat (10.90.1.11)";
 
 # nat is Network Address Translation (NAT).

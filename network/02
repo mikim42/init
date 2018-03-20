@@ -6,7 +6,7 @@
 #    By: mikim <mikim@student.42.us.org>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/03/11 22:31:06 by mikim             #+#    #+#              #
-#    Updated: 2018/03/17 15:51:27 by mikim            ###   ########.fr        #
+#    Updated: 2018/03/19 21:01:22 by mikim            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,5 +15,5 @@
 #	https://www.github.com/mikim42
 #
 
-#!/usr/bin/bash
+#!/bin/bash
 networksetup -getinfo Ethernet
